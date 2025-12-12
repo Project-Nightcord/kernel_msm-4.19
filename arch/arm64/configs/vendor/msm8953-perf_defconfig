@@ -660,6 +660,9 @@ CONFIG_RT_GROUP_SCHED=n
 CONFIG_KPROBES=y
 CONFIG_NET_ACT_BPF=y
 CONFIG_BPF_JIT=y
+CONFIG_BPF_LSM=y
+CONFIG_BPF_PRELOAD=y
+CONFIG_LSM="lockdown,yama,loadpin,safesetid,integrity,selinux,smack,tomoyo,apparmour,bpf"
 
 # EROFS
 CONFIG_EROFS_FS=y
