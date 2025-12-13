@@ -676,6 +676,7 @@ CONFIG_BPF_LSM=y
 CONFIG_USERFAULTFD=y
 CONFIG_BPF_PRELOAD=y
 CONFIG_LSM="lockdown,yama,loadpin,safesetid,integrity,selinux,smack,tomoyo,apparmour,bpf"
+CONFIG_INIT_ON_ALLOC_DEFAULT_ON=y
 
 # EROFS
 CONFIG_EROFS_FS=y
