@@ -240,7 +240,6 @@ extern struct mdss_dsi_ctrl_pdata *ctrl_list[];
 
 extern bool synaptics_gesture_func_on;
 extern bool synaptics_gesture_func_on_lansi;
-extern bool NVT_gesture_func_on;
 
 enum {
 	DSI_CTRL_0,
