@@ -18,6 +18,14 @@ jobs:
         with:
           submodules: true
 
+      - name: titanium Setup
+        run: |
+          git clone https://github.com/Project-Nightcord/kernel_techpack_xiaomi-titanium techpack/xiaomi-titanium
+
+      - name: SukiSU Setup
+        run: |
+          curl -LSs "https://raw.githubusercontent.com/KanariaAlt/SukiSU-Ultra/susfs-main/kernel/setup.sh" | bash -s susfs-main
+
       - name: Install dependencies
         run: |
           sudo apt-get update
